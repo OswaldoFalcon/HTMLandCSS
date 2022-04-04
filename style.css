@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+   background-color:#f4c245;
+  }
+  #card {
+   background-color: #9d3049;
+
+   width: 50%;
+   min-width: 400px;
+   max-width: 600px;
+   margin: 100px auto;
+   border-radius: 40px;
+ 
+   box-shadow: 10px 5px 5px #1d0105;
+   color: antiquewhite;
+   font-family: "Fira Sans", sans-serif;
+    text-align: center;
+  }
+ div{
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }

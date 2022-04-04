@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+    <section id="card">
+      <form action="" method="">
+        <div>
+          <h3>Nombre</h3>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <h3>Descripción</h3>
+          <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+        ></textarea>
+        </div>
+        <div>
+          <h3>Fecha de Inicio</h3>
+          <input type="date" name="startdate" id="startdate" />
+          <h3>Fecha de Fin</h3>
+          <input type="date" name="endate" id="enddate" />
+        </div>
+        <div>
+          <h3>Selecciona una comida</h3>
+          <select name="food" id="food">
+            <option value="pizza">Pizza</option>
+            <option value="taco">Taco</option>
+            <option value="hamburguer">Hamburguer</option>
+            <option value="ramen">Ramen</option>
+          </select>
+        </div>
+        <input type="submit" value="Send Information">
+      </form> 
+    </section>
+  </main>
+  </body>
+</html>
